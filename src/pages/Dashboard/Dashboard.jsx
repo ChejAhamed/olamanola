@@ -2,7 +2,7 @@ import React from 'react';
 import './Dashboard.scss'
 const Dashboard = function () {
   return (
-    <div className="body">
+    <div className="dashboard">
       Dashboard   Dashboard======  Dashboard   Dashboard======  Dashboard   Dashboard======
     </div>
   );
