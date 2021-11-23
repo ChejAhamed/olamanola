@@ -1,11 +1,31 @@
 import React from 'react';
+import { BrowserRouter as Router ,Route, Routes } from 'react-router-dom';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import Dashboard from './pages/Dashboard/Dashboard';
+import Contactus from './pages/Contactus/Contactus';
+import Services from './pages/Servicess/Services';
 import './App.css';
 
 const App = function () {
   return (
-    <div>
-      ppp
-    </div>
+    
+    <><Router>
+    
+        <Header />
+        <Routes>
+
+
+          <Route path="/" element={<Dashboard/>} />
+          <Route path="/contactus" element={<Contactus/>} />
+          <Route path="/services" element={<Services/>} />
+
+
+        </Routes>
+        <Footer />
+      
+    </Router>
+    </>
   );
 };
 
