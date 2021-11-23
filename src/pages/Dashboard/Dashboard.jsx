@@ -1,8 +1,8 @@
 import React from 'react';
-
+import './Dashboard.scss'
 const Dashboard = function () {
   return (
-    <div>
+    <div className="body">
       Dashboard   Dashboard======  Dashboard   Dashboard======  Dashboard   Dashboard======
     </div>
   );
