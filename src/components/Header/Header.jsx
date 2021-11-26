@@ -53,10 +53,10 @@ const Nav = styled.div`
 `;
 
 const Logo = styled.a`
-  padding: 1rem 0;
+  padding: 1rem 0 1rem;
   color: #7b7fda;
   text-decoration: none;
-
+  width: 10rem;
   font-weight: 800;
   font-size: 1.7rem;
   span {
