@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router ,Route, Routes } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import Dashboard from './pages/Dashboard/Dashboard';
+import Home from './pages/Home/Home';
 import Contactus from './pages/Contactus/Contactus';
 import Services from './pages/Servicess/Services';
 import Gallery from './pages/Gallery/Gallery';
@@ -17,7 +17,7 @@ const App = function () {
         <Routes>
 
 
-          <Route path="/" element={<Dashboard/>} />
+          <Route path="/" element={<Home/>} />
           <Route path="/contactus" element={<Contactus/>} />
           <Route path="/services" element={<Services/>} />
           <Route path="/gallery" element={<Gallery/>} />

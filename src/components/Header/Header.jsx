@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import logo from '../../images/olaa.svg'
 import styled from "styled-components";
 
 function Header() {
@@ -6,7 +7,7 @@ function Header() {
   return (
     <Nav>
       <Logo >
-        <img src="../images/ola.svg" alt="logo" />
+        <img src={logo} alt="logo" />
       </Logo>
       <Hamburger onClick={() => setIsOpen(!isOpen)}>
         <span />
@@ -45,7 +46,7 @@ const Nav = styled.div`
   align-items: center;
   flex-wrap: wrap;
   background: #FEEEEA;
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   right: 0;
@@ -55,9 +56,9 @@ const Logo = styled.a`
   padding: 1rem 0;
   color: #7b7fda;
   text-decoration: none;
+
   font-weight: 800;
   font-size: 1.7rem;
-  background-img: url('../images/olaa.svg')
   span {
     font-weight: 300;
     font-size: 1.3rem;

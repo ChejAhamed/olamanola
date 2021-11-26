@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+  }
+  .home{
+    width: 100%;
+    overflow: auto;
+    background-color:burlywood;
+    position: absolute;
+
+    height: 1200px;
+    &__carrousel {
+      position: absolute;
+    }
+  }
