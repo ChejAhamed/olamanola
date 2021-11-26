@@ -3,20 +3,33 @@
     padding: 0;
     text-decoration: none;
     
+    
   }
   .home{
     width: 100%;
-    overflow: auto;
-    background-color:burlywood;
-    position: absolute;
+    background-color:cornflowerblue ;
+    
+    
 
     height: 1200px;
     &__carousel-wrapper{
       width: auto;
+      display: flex;
+      .carousel  {
+        display: flex;
+        flex-flow: column;
+      align-content: center;
+      align-items: center;
+      }
+      
       div{
-        
-       
+        height: 50vh;
+             
       }
     }
-    
+    &__offers{
+      padding: 10rem;
+      background-color: #FEEEEA;
+    }
+
   }

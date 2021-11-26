@@ -11,7 +11,7 @@ const Home = function () {
   <main>
     <div className="home">
       <div className="home__carousel-wrapper">
-          <Carousel infiniteLoop useKeyboardArrows autoPlay>
+          <Carousel infiniteLoop useKeyboardArrows showThumbs autoPlay>
                 <div>
                 <img src={img1} alt="Carousel2"/>
                 </div>
@@ -25,20 +25,21 @@ const Home = function () {
 
       </div>
       <section className="home__offers">
-        <p>our amazing offers</p>
+        <h3>BEAUTY DEAL</h3>
+        <p>our amazing offers.our amazing offersour amazing offersour amazing offersour amazing offersour amazing offers</p>
       </section>
-      <div className="jobExamples">
-          <div className="jobEx1">
-            <img src="" alt="jobEx1" />
+      <div className="job__example">
+          <div className="job__example-one">
+            <img src="" alt="img_one" />
           </div>
-          <div className="jobEx2">
-            <img src="" alt="jobEx2" />
+          <div className="job__example-two">
+            <img src="" alt="img__two" />
           </div>
-          <div className="jobEx3">
-            <img src="" alt="jobEx3" />
+          <div className="job__example-three">
+            <img src="" alt="img_three" />
           </div>
-          <div className="jobEx4">
-            <img src="" alt="jobEx4" />
+          <div className="job__example-four">
+            <img src="" alt="img_four" />
           </div>
 
       </div>
