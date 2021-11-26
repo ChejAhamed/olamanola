@@ -1,23 +1,25 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-
+import img1 from '../../images/p1.jpg';
+import img2 from '../../images/p2.jpg';
+import img3 from '../../images/p3.jpg';
 import './Home.scss'
 const Home = function () {
   return (
   
   <main>
     <div className="home">
-      <div className="home__carrousel-wrapper">
+      <div className="home__carousel-wrapper">
           <Carousel infiniteLoop useKeyboardArrows autoPlay>
                 <div>
-                    <img src='../images/p1.jpg' alt="Carousel"/>
+                <img src={img1} alt="Carousel2"/>
                 </div>
                 <div>
-                    <img src='../../images/p2.jpg' alt="Carousel2"/>
+                    <img src={img2} alt="Carousel2"/>
                 </div>
                 <div>
-                    <img src='../../images/p3.jpg' alt="Carousel3"/>
+                    <img src={img3} alt="Carousel3"/>
                 </div>
           </Carousel>
 
