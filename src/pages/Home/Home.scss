@@ -4,23 +4,22 @@
     text-decoration: none;
     
     
+    
   }
   .home{
     width: 100%;
-    background-color:rgba(89, 125, 192, 0.472) ;
+    background-color: #f4cdc5;
     
     
-
-    height: 1200px;
     &__carousel-wrapper{
       width: auto;
       display: flex;
       .carousel  {
         display: flex;
         flex-flow: column;
-      align-content: center;
-      align-items: center;
-      }
+        align-content: center;
+        align-items: center;
+        }
       
       div{
         height: 50vh;
@@ -28,8 +27,14 @@
       }
     }
     &__offers{
-      padding: 10rem;
+      padding-top: 10rem;
       background-color: #FEEEEA;
+      align-content: center;
+      padding-left: 2rem;
+      padding-bottom: 2rem;
+      h3 {
+        justify-content: center;
+      }
     }
     &__jobexample{
       display: flex;
@@ -53,13 +58,19 @@
       flex-flow: row wrap;
     }
     &__productsQuality{
-      padding: 5rem 5rem 5rem 5rem;
-      
+
+      padding: 5rem 5rem 5rem;
       background-color: #FEEEEA;
+      &__bottom{
+        margin-bottom: 5rem;
+        background-color: #FEEEEA;padding: 5rem 5rem 5rem;
+      }
+      
     }
     &__beautiful{
       display: flex;
-      flex-flow: row wrap;    
+      flex-flow: row wrap;   
+      justify-content: center; 
       img {
         width: 37.5rem;
         height: 45rem;

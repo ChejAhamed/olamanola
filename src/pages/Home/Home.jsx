@@ -60,7 +60,7 @@ const Home = function () {
         <img src={img2} alt="beu2" />
         </div>
       </div>
-      <section className="home__productsQuality">
+      <section className="home__productsQuality__bottom">
         <h3>Top Quality Products</h3>
         <p>The GelBottle Inc was born with high quality and innovation in mind, offering an incredible array of over 360 unique colours to satisfy everyone’s taste. We develop cutting edge products like Builder In A Bottle™ and GelPot, two revolutionary builder gel systems for both natural nails and extensions. With our different approach we have rapidly grown into an international brand recognised worldwide and are quickly making our way to the forefront of the Industry. We’ve learned that the way forward is to set trends, not to follow them.</p>
       </section>
