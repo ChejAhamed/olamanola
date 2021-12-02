@@ -11,9 +11,9 @@ const Contactus = () => {
 
     const submit = () => {
         if (name && email && message) {
-            const serviceId = 'service_id';
-            const templateId = 'template_id';
-            const userId = 'user_id';
+            const serviceId = 'service_rkwucml';
+            const templateId = 'template_ob397wh';
+            const userId = 'user_nPyvX63fqK60lDraSbUTL';
             const templateParams = {
                 name,
                 email,
