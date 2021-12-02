@@ -7,7 +7,7 @@ function Header() {
   return (
     <Nav>
       <Logo >
-        <img src={logo} alt="logo" />
+        <img src={logo} alt="Olamanola" />
       </Logo>
       <Hamburger onClick={() => setIsOpen(!isOpen)}>
         <span />
@@ -62,6 +62,13 @@ const Logo = styled.a`
   span {
     font-weight: 300;
     font-size: 1.3rem;
+  }
+  @media (max-width: 768px) {
+    img {
+      width: 7rem;
+      higth: 7rem;
+    }
+    
   }
 `;
 
