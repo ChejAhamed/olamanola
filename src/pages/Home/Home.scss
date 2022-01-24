@@ -8,7 +8,7 @@
   }
   .home{
     width: 100%;
-    background-color: #f4cdc5;
+    background-color: #fce0d9;
     
     
     &__carousel-wrapper{
@@ -22,13 +22,14 @@
         }
       
       div{
-        height: 50vh;
+        height: 40vh;
+        
              
       }
     }
     &__offers{
       padding-top: 10rem;
-      background-color: #FEEEEA;
+      background-color: #fce0d9;
       align-content: center;
       padding-left: 2rem;
       padding-bottom: 2rem;
@@ -60,10 +61,10 @@
     &__productsQuality{
 
       padding: 5rem 5rem 5rem;
-      background-color: #FEEEEA;
+      background-color: #fce0d9;
       &__bottom{
         margin-bottom: 5rem;
-        background-color: #FEEEEA;padding: 5rem 5rem 5rem;
+        background-color: #fce0d9;padding: 5rem 5rem 5rem;
       }
       
     }

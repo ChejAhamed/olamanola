@@ -40,16 +40,19 @@ const MenuLink = styled.a`
 `;
 
 const Nav = styled.div`
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow:auto;
   padding: 0 2rem;
   display: flex;
   justify-content: space-between;;
   align-items: center;
   flex-wrap: wrap;
-  background: #FEEEEA;
-  position: relative;
-  top: 0;
-  left: 0;
-  right: 0;
+  
+  background: #fceef2;
+  
 `;
 
 const Logo = styled.a`
